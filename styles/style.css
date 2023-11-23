@@ -1,0 +1,30 @@
+:root {
+    --black: #3E3232;
+    --accent1: #588B8B;
+    --accent2: #ACC5C5;
+    --grey: #F1F1F1;
+    --white: #FFFFFF;
+}
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: var(--backgroundColor);
+}
+
+.menu {
+    color: var(--black);
+    border: 0cm;
+    background-color: rgba(0,0,0,0);
+    font-size: large;
+}
+
+#menu-container {
+    background-color: var(--accent2);
+    margin: 0 auto;
+    top: 0;
+}
