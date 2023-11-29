@@ -6,6 +6,8 @@
     --white: #FFFFFF;
 }
 
+/* css jest pisany na ekran o rozdzielczosci 360 x 800 */
+
 body {
     overflow-x: hidden;
     text-align: center;
@@ -29,9 +31,9 @@ body {
 
 #menu-container {
     background-color: var(--accent2);
-    margin: auto;
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -41,17 +43,65 @@ h1 {
 
 .kafelek {
     background-color: var(--grey);
-    margin: 30px;
+    margin: auto;
+    margin-top: 30px;
+    width: 313px;
     border-radius: 30px;
-    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.342);
     position: relative;
+    min-height: 70px;
 }
 
 .sala {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
     position: absolute;
-    right: 10px;
+    text-align: center;
+    right: 15px;
     margin: 0;
-    margin-top: 2px;
+    top: 10%;
+}
+
+.przedmiot {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    margin: auto;
+    top: 7px;
+    left: 30px;
+}
+
+.godzina {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin: auto;
+    top: 40px;
+    left: 30px;
+}
+
+#search {
+    background-color: var(--accent2);
+    margin: auto;
+    font-size: 22px;
+    border: 0cm;
+    border-radius: 20px;
+    padding: 5px;
+    width: 303px;
+}
+
+#podpowiedzi {
+    background-color: var(--grey);
+    border-radius: 20px;
+    margin: auto;
+    width: 313px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.342);
+}
+
+.rounded {
+    background-color: #D8D8D8;
+    border: 0px;
+    border-radius: 20px;
+    width: 90%;
+    height: 3px;
 }
