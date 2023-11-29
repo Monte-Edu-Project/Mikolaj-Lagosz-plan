@@ -1,0 +1,107 @@
+:root {
+    --black: #3E3232;
+    --accent1: #588B8B;
+    --accent2: #ACC5C5;
+    --grey: #F1F1F1;
+    --white: #FFFFFF;
+}
+
+/* css jest pisany na ekran o rozdzielczosci 360 x 800 */
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: var(--backgroundColor);
+}
+
+.menu {
+    color: var(--black);
+    border: 0cm;
+    background-color: rgba(0,0,0,0);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;    
+}
+
+#menu-container {
+    background-color: var(--accent2);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.kafelek {
+    background-color: var(--grey);
+    margin: auto;
+    margin-top: 30px;
+    width: 313px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.342);
+    position: relative;
+    min-height: 70px;
+}
+
+.sala {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    position: absolute;
+    text-align: center;
+    right: 15px;
+    margin: 0;
+    top: 10%;
+}
+
+.przedmiot {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    margin: auto;
+    top: 7px;
+    left: 30px;
+}
+
+.godzina {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin: auto;
+    top: 40px;
+    left: 30px;
+}
+
+#search {
+    background-color: var(--accent2);
+    margin: auto;
+    font-size: 22px;
+    border: 0cm;
+    border-radius: 20px;
+    padding: 5px;
+    width: 303px;
+}
+
+#podpowiedzi {
+    background-color: var(--grey);
+    border-radius: 20px;
+    margin: auto;
+    width: 313px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.342);
+}
+
+.rounded {
+    background-color: #D8D8D8;
+    border: 0px;
+    border-radius: 20px;
+    width: 90%;
+    height: 3px;
+}
