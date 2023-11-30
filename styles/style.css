@@ -62,11 +62,43 @@ h1 {
     top: 10%;
 }
 
+.podpowiedz {
+    position: relative;
+    display: flex;
+    height: 50px;
+    margin: 0;
+}
+
+.sala2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    align-items: center;
+    padding: 10px;
+    height: min-content;
+    right: 10%;
+    margin: 0;
+    top: 7%;
+}
+
+.nauczyciel {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    align-items: center;
+    padding: 10px;
+    height: min-content;
+    left: 10%;
+    margin: 0;
+    top: 20%;
+}
+
 .przedmiot {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     position: absolute;
-    margin: auto;
+    margin: 0;
+    padding: 10px;
     top: 7px;
     left: 30px;
 }
@@ -96,6 +128,7 @@ h1 {
     margin: auto;
     width: 313px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.342);
+    height: 250px;
 }
 
 .rounded {
